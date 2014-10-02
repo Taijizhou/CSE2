@@ -14,11 +14,12 @@
 //      java BoolaBoola
 //
 
-import java.util.Random;
+import java.util.Random;//Import Random
 import java.util.Scanner; // Import Scanner Class
-
+//define class
 public class BoolaBoola 
 {
+	//main method
 	public static void main(String[] args) 
 	{
 		Random r = new Random();
@@ -43,18 +44,18 @@ public class BoolaBoola
 			// check as per boolean value
 			if(b1 && b2 && b3)
 			{
-				if(ans == 'T' || ans == 't')
+				if(ans == 'T' || ans == 't')// if it is T or t
 					System.out.println("Correct");
 				else
-					System.out.println("Wrong Answer: Try Again");
+					System.out.println("Wrong Answer: Try Again");// if it is not T or t then it is Wrong Answer
 			}
 			
 			else
 			{
 				if(ans == 'F' || ans == 'f')
-					System.out.println("Correct");
+					System.out.println("Correct");// if it is F or f
 				else
-					System.out.println("Wrong Answer: Try Again");
+					System.out.println("Wrong Answer: Try Again");// if it is not F or f then it is Wrong Answer
 			}
 		}
 		
@@ -67,17 +68,17 @@ public class BoolaBoola
 			if(b1 && b2 || b3)
 			{
 				if(ans == 'T' || ans == 't')
-					System.out.println("Correct");
+					System.out.println("Correct");// if it is T or t
 				else
-					System.out.println("Wrong Answer: Try Again");
+					System.out.println("Wrong Answer: Try Again");//// if it is not T or t then it is Wrong Answer
 			}
 			
 			else
 			{
 				if(ans == 'F' || ans == 'f')
-					System.out.println("Correct");
+					System.out.println("Correct");// if it is F or f
 				else
-					System.out.println("Wrong Answer: Try Again");
+					System.out.println("Wrong Answer: Try Again");// if it is not F or f then it is Wrong Answer 
 			}
 		}
 		
@@ -90,17 +91,17 @@ public class BoolaBoola
 			if(b1 || b2 && b3)
 			{
 				if(ans == 'T' || ans == 't')
-					System.out.println("Correct");
+					System.out.println("Correct");// if it is T or t
 				else
-					System.out.println("Wrong Answer: Try Again");
+					System.out.println("Wrong Answer: Try Again");// if it is not T or t then it is Wrong Answer
 			}
 			
 			else
 			{
 				if(ans == 'F' || ans == 'f')
-					System.out.println("Correct");
+					System.out.println("Correct");//if it is F or f 
 				else
-					System.out.println("Wrong Answer: Try Again");
+					System.out.println("Wrong Answer: Try Again");// if it is not F or f then it is Wrong Answer
 			}
 		}
 		
@@ -113,18 +114,18 @@ public class BoolaBoola
 			if(b1 || b2 || b3)
 			{
 				if(ans == 'T' || ans == 't')
-					System.out.println("Correct");
+					System.out.println("Correct");// if it is T or t 
 				else
-					System.out.println("Wrong Answer: Try Again");
+					System.out.println("Wrong Answer: Try Again");// else if it is not T or t then Wrong Answer
 			}
 			
 			else
 			{
-				if(ans == 'F' || ans == 'f')
-					System.out.println("Correct");
+				if(ans == 'F' || ans == 'f')// if it is F or f
+					System.out.println("Correct");// it is correct
 				else
 					System.out.println("Wrong Answer: Try Again");
-			}
+			}// else if it is not F or f then Wrong Answer
 		}
-	}
-}
+	}// end of main method 
+}// end of class

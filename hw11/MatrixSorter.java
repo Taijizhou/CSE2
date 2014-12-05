@@ -1,6 +1,6 @@
 /////////////////////////////////////////////
 //Taiji Zhou
-//Date: 11/17/14
+//Date: 12/05/14
 //Professor Brian Chen 
 //Class CSE 002-112
 //MatrixSorter Java Program

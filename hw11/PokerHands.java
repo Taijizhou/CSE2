@@ -231,7 +231,7 @@ import java.util.Scanner;
 		return count;
 	}
 	
-	//Calculate and return the maximum no. of successive occurences of the key with in the given array.													
+	//Calculate and return the maximum number of successive occurences of the key with in the given array.													
 	 
 	public static int countSuccessive(int[] values, int key){
 		int tempCount=0;
